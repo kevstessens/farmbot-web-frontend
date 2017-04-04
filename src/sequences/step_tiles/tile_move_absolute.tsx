@@ -156,20 +156,20 @@ export class TileMoveAbsolute extends Component<StepParams, MoveAbsState> {
               <i className="fa fa-question-circle help-icon" />
               <div className="help-text">
                 {t(`The Move Absolute step instructs
-                FarmBot to move to the specified coordinate
+                LaurBot to move to the specified coordinate
                 regardless of the current position. For example,
-                if FarmBot is currently at X=1000, Y=1000 and it
+                if LaurBot is currently at X=1000, Y=1000 and it
                 receives a Move Absolute where X=0 and Y=3000,
-                then FarmBot will move to X=0, Y=3000. If
-                FarmBot must move in multiple directions, it
+                then LaurBot will move to X=0, Y=3000. If
+                LaurBot must move in multiple directions, it
                 will move diagonally. If you require straight
                 movements along one axis at a time, use multiple
                 Move Absolute steps. Coming soon: Offsets allow
-                you to more easily instruct FarmBot to move to a
+                you to more easily instruct LaurBot to move to a
                 location, but offset from it by the specified
                 amount. For example moving to just above where a
                 peripheral is located. Using offsets lets
-                FarmBot do the math for you.`)}
+                LaurBot do the math for you.`)}
               </div>
             </div>
           </div>

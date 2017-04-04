@@ -138,16 +138,16 @@ export class FrontPage extends React.Component<{}, Partial<FrontPageState>> {
     return (
       <div className="static-page">
         <h1>
-          Welcome to the FarmBot Web App
+          Welcome to the LaurBot Web App
                 </h1>
         <h2 className="fb-desktop-show">
-          Setup, customize, and control FarmBot from your computer
+          Setup, customize, and control LaurBot from your computer
                 </h2>
         <h2 className="fb-tablet-show">
-          Setup, customize, and control FarmBot from your tablet
+          Setup, customize, and control LaurBot from your tablet
                 </h2>
         <h2 className="fb-mobile-show">Setup, customize, and control
-                FarmBot from your smartphone</h2>
+                LaurBot from your smartphone</h2>
         <div className="image-login-wrapper">
           <div className="image-wrapper">
             <img className="fb-desktop-show"

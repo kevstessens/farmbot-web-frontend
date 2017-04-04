@@ -14,12 +14,12 @@ export class HardwareSettings extends React.Component<HardwareSettingsProps, {}>
     return <Widget className="hardware-widget">
       <WidgetHeader title="Hardware"
         helpText={`Change settings
-                  of your FarmBot hardware with the fields below.
+                  of your LaurBot hardware with the fields below.
                   Caution: Changing these settings to extreme
                   values can cause hardware malfunction. Make
                   sure to test any new settings before letting
-                  your FarmBot use them unsupervised. Tip: Recalibrate
-                  FarmBot after changing settings and test a few sequences
+                  your LaurBot use them unsupervised. Tip: Recalibrate
+                  LaurBot after changing settings and test a few sequences
                   to verify that everything works as expected. Note:
                   Currently not all settings can be changed.`}>
         <button className="green button-like"

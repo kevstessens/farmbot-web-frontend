@@ -134,7 +134,7 @@ export let saveAccountChanges: Thunk = function (dispatch, getState) {
 
 let commandErr = (noun = "Command") => () => {
   let msg = noun + " request failed.";
-  error(msg, t("Farmbot Didn't Get That!"));
+  error(msg, t("LaurBot Didn't Get That!"));
 };
 
 let commandOK = (noun = "Command") => () => {
@@ -254,7 +254,7 @@ function readStatus() {
       commandOK(noun);
     })
     .catch(function () {
-      warning(t("Could not fetch bot status. Is FarmBot online?"));
+      warning(t("Could not fetch bot status. Is LaurBot online?"));
     });
 }
 
@@ -278,9 +278,9 @@ export function connectDevice(token: string): {} | ((dispatch: Function) => any)
         let alreadyToldYou = false;
         bot.on("malformed", function () {
           if (!alreadyToldYou) {
-            warning(t("FarmBot sent a malformed message. " +
-              "You may need to upgrade FarmBot OS. " +
-              "Please upgrade FarmBot OS and log back in."));
+            warning(t("LaurBot sent a malformed message. " +
+              "You may need to upgrade LaurBot OS. " +
+              "Please upgrade LaurBot OS and log back in."));
             alreadyToldYou = true;
           }
         });

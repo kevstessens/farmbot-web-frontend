@@ -115,7 +115,7 @@ export class Wow extends React.Component<Props, Partial<State>> {
                         <p>
                           {t("Please send us an email at contact@farmbot.io or see")}
                           <a href="http://forum.farmbot.org/">
-                            {t("the FarmBot forum.")}
+                            {t("the LaurBot forum.")}
                           </a>
                         </p>
                       </div>

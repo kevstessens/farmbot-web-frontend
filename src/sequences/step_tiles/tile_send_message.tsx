@@ -110,7 +110,7 @@ class RefactoredSendMessage extends React.Component<SendMessageParams, {}> {
               <i className="fa fa-trash step-control"
                 onClick={() => remove({ dispatch, index, sequence: currentSequence })} />
               <Help text={(`The Send Message step instructs
-                            FarmBot to send a custom message to the logs.
+                            LaurBot to send a custom message to the logs.
                             This can help you with debugging your sequences.
                             Eventually you will be able to receive push
                             notifications and email alerts of these

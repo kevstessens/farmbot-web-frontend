@@ -22,7 +22,7 @@ export async function verify() {
       </p>
       <p>
       Please try again or <a href="http://forum.farmbot.org/"> ask for help on
-      the FarmBot Forum.</a>
+      the LaurBot Forum.</a>
       </p>
       `);
     throw new Error("USER VERIFICATION FAILED!");

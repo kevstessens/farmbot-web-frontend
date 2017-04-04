@@ -24,7 +24,7 @@ export function TileWait({ dispatch, currentStep, index, currentSequence }: Step
               }))} />
             <i className="fa fa-trash step-control"
               onClick={() => remove({ dispatch, index, sequence: currentSequence })} />
-            <Help text={(`The Wait step instructs FarmBot to wait
+            <Help text={(`The Wait step instructs LaurBot to wait
                             for the specified amount of time. Use it in
                             combination with the Pin Write step to water for a
                             length of time.`)} />

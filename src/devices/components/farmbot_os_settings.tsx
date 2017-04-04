@@ -100,7 +100,7 @@ export class FarmbotOsSettings extends React.Component<FarmbotOsProps,
           </Row>
           <Row>
             <Col xs={2}>
-              <label>{t("FARMBOT OS")}</label>
+              <label>{t("LAURBOT OS")}</label>
             </Col>
             <Col xs={3}>
               <p>
@@ -142,7 +142,7 @@ export class FarmbotOsSettings extends React.Component<FarmbotOsProps,
             <Col xs={7}>
               <p>
                 {t(`This will shutdown FarmBot's Raspberry Pi. To turn it
-                    back on, unplug FarmBot and plug it back in.`)}
+                    back on, unplug LaurBot and plug it back in.`)}
               </p>
             </Col>
             <Col xs={3}>
@@ -159,11 +159,11 @@ export class FarmbotOsSettings extends React.Component<FarmbotOsProps,
             </Col>
             <Col xs={7}>
               <p>
-                {t(`Factory resetting your FarmBot will destroy all data on
-                    the device, revoking your FarmBot's abilily to connect to
+                {t(`Factory resetting your LaurBot will destroy all data on
+                    the device, revoking your LaurBot's abilily to connect to
                     your web app account and your home wifi. Upon factory
                     resetting, your device will restart into Conflgurator
-                    mode. Factory resetting your FarmBot will not affect any
+                    mode. Factory resetting your LaurBot will not affect any
                     data or settings from your web app account, allowing you
                     to do a complete restore to your device once it is back
                     online and paired with your web app account.`)}

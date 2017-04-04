@@ -16,14 +16,14 @@ export class DeleteAccount extends React.Component<DeleteAccountPropTypes, {}> {
         <div>
           {t(`WARNING! Deleting your account will permanently delete
               all of your Sequences , Regimens, Events, and Farm
-              Designer data.Upon deleting your account, FarmBot will
+              Designer data.Upon deleting your account, LaurBot will
               cease to function and become inaccessible until it is
               paired with another web app account. To do this, you
-              will need to reboot your FarmBot so that is goes back
+              will need to reboot your LaurBot so that is goes back
               into configuration mode for pairing with another user
               account. When this happens, all of the data on your
-              FarmBot will be overwritten with the new account's data.
-              If the account is brand new, then FarmBot will become a
+              LaurBot will be overwritten with the new account's data.
+              If the account is brand new, then LaurBot will become a
               blank slate.`)}
           <br /><br />
           {t(`If you are sure you want to delete your account, type in

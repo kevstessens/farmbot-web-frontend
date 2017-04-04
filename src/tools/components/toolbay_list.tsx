@@ -12,9 +12,9 @@ export class ToolBayList extends React.Component<ToolBayListProps, {}> {
       {this.props.toolBays.map(bay => {
         return <Widget key={bay.body.id}>
           <WidgetHeader
-            helpText={t(`Toolbays are where you store your FarmBot Tools. Each
+            helpText={t(`Toolbays are where you store your LaurBot Tools. Each
               Toolbay has Slots that you can put your Tools in, which should be
-              reflective of your real FarmBot hardware configuration.`)}
+              reflective of your real LaurBot hardware configuration.`)}
             title={"ToolBay 1"}>
             <button
               className="gray button-like" onClick={toggle}>

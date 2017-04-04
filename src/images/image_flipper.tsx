@@ -6,7 +6,7 @@ import * as moment from "moment";
 import { TaggedImage } from "../resources/tagged_resources";
 
 export const PLACEHOLDER_FARMBOT = "/placeholder_farmbot.jpg";
-export const WEBCAM_ERROR = "/webcam_error.jpg"
+export const WEBCAM_ERROR = "/webcam_error.jpg";
 const NO_INDEX = new Error(`
   Attempted getting this.state.currentInx and expected a number.
   It was not a number.

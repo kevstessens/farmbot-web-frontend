@@ -25,12 +25,12 @@ export function TileMoveRelative({ dispatch, currentStep, index, currentSequence
               }))} />
             <i className="fa fa-trash step-control"
               onClick={() => remove({ dispatch, index, sequence: currentSequence })} />
-            <Help text={(`The Move Relative step instructs FarmBot \
+            <Help text={(`The Move Relative step instructs LaurBot \
                         to move the specified distance from its current \
-                        location. For example, if FarmBot is currently at \
+                        location. For example, if LaurBot is currently at \
                         X=1000, Y=1000 and it receives a Move Relative where \
-                        X=0 and Y=3000, then FarmBot will move to X=1000, \
-                        Y=4000. If FarmBot must move in multiple directions, \
+                        X=0 and Y=3000, then LaurBot will move to X=1000, \
+                        Y=4000. If LaurBot must move in multiple directions, \
                         it will move diagonally. If you require straight \
                         movements along one axis at a time, use  multiple \
                         Move Relative steps. Move Relative steps should be \

@@ -64,7 +64,7 @@ function safelyFetchErrors(err: AxiosErrorResponse): Dictionary<string> {
   } else {
     console.warn("DONT KNOW HOW TO HANDLE THIS ERROR MESSAGE.");
     console.dir(err);
-    return { problem: "Farmbot Web App hit an unhandled exception." };
+    return { problem: "LaurBot Web App hit an unhandled exception." };
   };
 }
 

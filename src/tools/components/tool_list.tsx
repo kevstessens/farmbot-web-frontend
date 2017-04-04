@@ -10,7 +10,7 @@ export class ToolList extends React.Component<ToolListProps, {}> {
     let { tools } = this.props;
     return <Widget>
       <WidgetHeader
-        helpText={t(`This is a list of all your FarmBot Tools.
+        helpText={t(`This is a list of all your LaurBot Tools.
           Click the Edit button to add, edit, or delete tools.`)}
         title="Tools">
         <button

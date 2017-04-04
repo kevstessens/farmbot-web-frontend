@@ -21,7 +21,7 @@ export class ToolForm extends React.Component<ToolFormProps, {}> {
     let { dispatch, tools } = this.props;
     return <Widget>
       <WidgetHeader
-        helpText={t(`This is a list of all your FarmBot Tools.
+        helpText={t(`This is a list of all your LaurBot Tools.
           Click the Edit button to add, edit, or delete tools.`)}
         title="Tools">
         <button

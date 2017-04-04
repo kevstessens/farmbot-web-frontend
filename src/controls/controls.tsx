@@ -43,10 +43,10 @@ export class Controls extends Component<Props, ControlsState> {
         <Col xs={12} sm={6} md={4} mdOffset={1}>
           <Widget>
             <WidgetHeader title="Move"
-              helpText={`Use these manual control buttons to move FarmBot in
+              helpText={`Use these manual control buttons to move LaurBot in
                     realtime. Press the arrows for relative movements or type in
                     new coordinates and press GO for an absolute movement. Tip:
-                    Press the Home button when you are done so FarmBot is ready
+                    Press the Home button when you are done so LaurBot is ready
                     to get back to work.`}>
               <EStopButton
                 bot={this.props.bot}
