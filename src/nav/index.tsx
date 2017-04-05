@@ -124,6 +124,10 @@ export class NavBar extends React.Component<NavBarProps, NavBarState> {
           </div>
         </div>
 
+        <div className="nav-logo-container">
+          <img src="/app-resources/img/logo.png" className="nav-logo-img" />
+        </div>
+
         <div className={`ticker-list ${tickerClass}`} onClick={toggleTicker}>
           {this.props.logs.map(log => {
             let time = moment.utc(log.created_at).local().format("h:mm a");
