@@ -66,7 +66,7 @@ module.exports = function () {
         "process.env.SHORT_REVISION": JSON.stringify(execSync(
           'git log --pretty=format:"%h" -1').toString())
       }),
-      // FarmBot Inc related.
+      // LaurBot Inc related.
       new webpack.DefinePlugin({
         "process.env.NPM_ADDON": JSON.stringify(
           process.env.NPM_ADDON || false).toString()

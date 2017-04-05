@@ -1,7 +1,7 @@
 {
   "name": "farmbot-web-frontend",
   "version": "1.1.0",
-  "description": "Farmbot web frontend.",
+  "description": "LaurBot web frontend.",
   "main": "dist/entry.js",
   "repository": {
     "type": "git",

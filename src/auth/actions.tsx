@@ -66,7 +66,7 @@ export function loginOk(auth: AuthState): ReduxAction<AuthState> {
   };
 }
 
-/** Sign up for the FarmBot service over AJAX. */
+/** Sign up for the LaurBot service over AJAX. */
 export function register(name: string,
   email: string,
   password: string,

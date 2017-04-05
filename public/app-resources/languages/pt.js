@@ -26,11 +26,11 @@ module.exports = {
   "NETWORK": "REDE",
   "READ PIN": "EFETUAR LEITURA DO PIN",
   "RESET": "RESETAR TUDO",
-  "RESTART FARMBOT": "REINICIAR O FARMBOT",
+  "RESTART LAURBOT": "REINICIAR O LAURBOT",
   "RESTART": "REINICIAR",
   "SAVE": "SALVAR",
   "SEND MESSAGE": "ENVIAR MENSAGEM",
-  "SHUTDOWN FARMBOT": "DESLIGAR O FARMBOT",
+  "SHUTDOWN LAURBOT": "DESLIGAR O LAURBOT",
   "SHUTDOWN": "DESLIGAR",
   "TEST": "TESTAR",
   "TOOL NAME": "NOME DA FERRAMENTA",
@@ -73,24 +73,24 @@ module.exports = {
   //STATUS & ERROR TEXTS
   "Add a div with id `root` to the page first.": "Primeiramente adicione um elemento div com a id `root` á página.",
   "Bot ready": "Robô pronto",
-  "calling FarmBot with credentials": "conectando ao Fambot com as credenciais",
+  "calling LaurBot with credentials": "conectando ao Fambot com as credenciais",
   "Camera": "Câmera",
   "Could not download firmware update information.": "Não foi possível transferir as informações de atualização do Firmware do dispositivo.",
   "Could not download OS update information.": "Não foi possível transferir as informações de atualização do Sistema Operacional.",
   "Could not download sync data": "Não foi possível transferir os dados de sincronização",
-  "Could not fetch bot status. Is FarmBot online?": "Não foi possível verificar o estado do farmbot. Verifique se o mesmo se encontra conectado",
+  "Could not fetch bot status. Is LaurBot online?": "Não foi possível verificar o estado do laurbot. Verifique se o mesmo se encontra conectado",
   "Couldn\'t save device.": "Não foi possível salvar dados sobre o o dispositivo",
   "downloading device credentials": "transferindo credenciais do dispositivo",
   "Error establishing socket connection": "Erro ao estabelecer conexão com os soquetes",
   "Error while saving device.": "Erro ao salvar detalhes do dispositivo.",
   "Factory Reset": "Redefinir Todas as Configurações para o padrão de Fábrica",
-  "Farmbot Didn't Get That!": "Comando inválido!",
-  "FarmBot sent a malformed message. ": "O FarmBot está enviando mensagens truncadas. ",
+  "Laurbot Didn't Get That!": "Comando inválido!",
+  "LaurBot sent a malformed message. ": "O LaurBot está enviando mensagens truncadas. ",
   "initiating connection": "iniciando conexão",
   "never connected to device": "nunca conectado ao dispositivo",
   "No logs yet.": "Sem registros para exibir.",
-  "Not Connected to bot": "Não está conectado ao FarmBot",
-  "Please upgrade FarmBot OS and log back in.": "Por favor faça um upgrade do Sistema Operacional e tente novamente.",
+  "Not Connected to bot": "Não está conectado ao LaurBot",
+  "Please upgrade LaurBot OS and log back in.": "Por favor faça um upgrade do Sistema Operacional e tente novamente.",
   "Socket Connection Established": "Conexão com os soquetes estabelecida",
   "ToolBay saved.": "Compartimento de Ferramentas salvo comm sucesso.",
   "Tools saved.": "Ferramentas salvas com sucesso.",
@@ -99,7 +99,7 @@ module.exports = {
   "Tried to save plant, but couldn't.": "Não foi possível salvar os dados desta planta.",
   "Unable to download device credentials": "Não foi possível transferir as credenciais do dispositivo",
   "User successfully updated.": "Usuário atualizado.",
-  "You may need to upgrade FarmBot OS. ": "Talvez você tenha efetuar um upgrade do Sistema Operacional do Farmbot. ",
+  "You may need to upgrade LaurBot OS. ": "Talvez você tenha efetuar um upgrade do Sistema Operacional do Laurbot. ",
 
   //OTHERS/GENERAL WORDS
   "Add": "Adicionar",
@@ -155,7 +155,7 @@ module.exports = {
 
 
   //REGIMEN & SEQUENCES
-  "Could not download regimens.": "Não foi possível transferir a programação para o FarmBot.",
+  "Could not download regimens.": "Não foi possível transferir a programação para o LaurBot.",
   "Sequence or Regimen": "Sequência ou Regime",
   "Regimen Name": "Nome da Programação",
   "Regimen deleted.": "Programação excluída.",
@@ -187,24 +187,24 @@ module.exports = {
   //`This widget` : `este widget`,
 
   //TIPS & ERRORS
-  //`Use these manual control buttons to move FarmBot in realtime. Press the arrows for relative movements or type in new coordinates and press GO for an absolute movement.   Tip: Press the Home button when you are done so FarmBot is ready to get back to work.` : `Utilize estes botões de controle manual para movimentar o FarmBot em tempo real.  Pressione as setas para movimentar ou insira novas cordenadas e aperte o  botão IR para um movimento mais preciso. Dica: Aperte o botão de Início quando terminar para que o Farmbot saiba que deve voltar ao trabalho.`,
+  //`Use these manual control buttons to move LaurBot in realtime. Press the arrows for relative movements or type in new coordinates and press GO for an absolute movement.   Tip: Press the Home button when you are done so LaurBot is ready to get back to work.` : `Utilize estes botões de controle manual para movimentar o LaurBot em tempo real.  Pressione as setas para movimentar ou insira novas cordenadas e aperte o  botão IR para um movimento mais preciso. Dica: Aperte o botão de Início quando terminar para que o Laurbot saiba que deve voltar ao trabalho.`,
   //`Press the edit button to update and save your webcam URL.` :  `Pressione o botão de editar para atualizar e salvar a URL de sua webcam.`,
-  //`Use these toggle switches to control FarmBot's peripherals in realtime. To edit and create new peripherals, press the EDIT button. Make sure to turn things off when you're done!` : `Use esses controles para  controlar os periféricos do Farmbot em tempo real. Para editar e criar novos periféricos, pressione o botão EDITAR. Tenha certeza de desligar tudo quando acabar!`
-  //`Tried to connect to null bot.You probably meant to set a bot first.` : `Tentou conectar a um farmbot inexistente. Você provavelmente esqueceu de configurar seu farmbot.`
+  //`Use these toggle switches to control LaurBot's peripherals in realtime. To edit and create new peripherals, press the EDIT button. Make sure to turn things off when you're done!` : `Use esses controles para  controlar os periféricos do Laurbot em tempo real. Para editar e criar novos periféricos, pressione o botão EDITAR. Tenha certeza de desligar tudo quando acabar!`
+  //`Tried to connect to null bot.You probably meant to set a bot first.` : `Tentou conectar a um laurbot inexistente. Você provavelmente esqueceu de configurar seu laurbot.`
   //"request sent to device." : " solicitação enviada ao dispositivo."
-  //`This will restart FarmBot's Raspberry` : `Isto irá reiniciar o equipamento Raspberry do FarmBot`,
-  //`This will shutdown FarmBot's Raspberry Pi`. : `Isto irá desligar o  Raspberry Pi do FarmBot`.
+  //`This will restart LaurBot's Raspberry` : `Isto irá reiniciar o equipamento Raspberry do LaurBot`,
+  //`This will shutdown LaurBot's Raspberry Pi`. : `Isto irá desligar o  Raspberry Pi do LaurBot`.
   //`ToolBay could not be updated: ${e.message}` : `O Compartimento de Ferramentas não pode ser atualizado: ${e.message}`
-  //`Toolbays are where you store your FarmBot Tools. Each Toolbay has Slots that you can put your Tools in, which should be reflective of your real FarmBot hardware configuration.` : `Toolbays (Compartimento de Ferramentas) é onde você armazena as Ferramentas do FarmBot. Cada Compartimento tem um slot (fendas) nas quais você pode colocar suas Ferramentas. Essas ferramentas devem ser iguais às da configuração de hardware do seu FarmBot.`
-  //`This is a list of all your FarmBot Tools. Click the Edit button to add, edit, or delete tools.` : `Esta é uma lista de todas as suas Ferramentas do FarmBot. Clique em Editar para adicionar, editar ou excluir ferramentas.`
+  //`Toolbays are where you store your LaurBot Tools. Each Toolbay has Slots that you can put your Tools in, which should be reflective of your real LaurBot hardware configuration.` : `Toolbays (Compartimento de Ferramentas) é onde você armazena as Ferramentas do LaurBot. Cada Compartimento tem um slot (fendas) nas quais você pode colocar suas Ferramentas. Essas ferramentas devem ser iguais às da configuração de hardware do seu LaurBot.`
+  //`This is a list of all your LaurBot Tools. Click the Edit button to add, edit, or delete tools.` : `Esta é uma lista de todas as suas Ferramentas do LaurBot. Clique em Editar para adicionar, editar ou excluir ferramentas.`
 
   //REGIMEN & SEQUENCES
   //`Use this tool to schedule sequences to run on one or many days of your regimen.` : `Use esta ferramenta para agendar sequências a serem executadas em um ou mais dias de sua programação.`,
   //`You don't have any Regimens yet. Click "Add" from the Regimens widget to create and edit your first Regimen.` : `Você ainda não criou nenhuma programação. Clique em "Adicionar" a partir do widget de programações para criar e editar sua primeira programação.`,
-  //`Regimens allow FarmBot to take care of a plant throughout its entire life. A regimen consists of many sequences that are scheduled to run based on the age of the plant. Regimens are applied to plants from the farm designer (coming soon) and can be re-used on many plants growing at the same or different times. Multiple regimens can be applied to any one plant.` : `As programações permitem que o FarmBot cuide de uma planta ao longo de toda a vida dela. Uma programação consiste em várias sequências que tem sua execução agendada  de acordo com a idade da planta. As programações são aplicadas às plantas a partir do Planejador de hortas (disponível em breve) e podem ser reutilizadas  em várias plantas  de idades iguais ou diferentes. Várias programações podem ser atribuídas à uma mesma planta.`,
+  //`Regimens allow LaurBot to take care of a plant throughout its entire life. A regimen consists of many sequences that are scheduled to run based on the age of the plant. Regimens are applied to plants from the farm designer (coming soon) and can be re-used on many plants growing at the same or different times. Multiple regimens can be applied to any one plant.` : `As programações permitem que o LaurBot cuide de uma planta ao longo de toda a vida dela. Uma programação consiste em várias sequências que tem sua execução agendada  de acordo com a idade da planta. As programações são aplicadas às plantas a partir do Planejador de hortas (disponível em breve) e podem ser reutilizadas  em várias plantas  de idades iguais ou diferentes. Várias programações podem ser atribuídas à uma mesma planta.`,
   //`Add sequences to this Regimen by using the "scheduler"` : `Adicione Sequências à esta programação utilizando o "agendador"`,
   //`This is a list of all of your regimens. Click one to begin editing it.` : `Esta é uma lista de todas as suas programações. Clique em uma delas para editá-la.`,
   //`Here is the list of all of your sequences. Click one to edit.` : `Aqui fica a lista de suas sequências. Clique em uma para editá-la.`
-  //`Drag and drop commands here to create sequences for watering, planting seeds, measuring soil properties, and more. Press the Test button to immediately try your sequence with FarmBot. You can also edit, copy, and delete existing sequences; assign a color; and give your commands custom names.` : `Arraste e solte comandos aqui para criar sequências de irrigação, plantio de sementes, medição de propriedades do solo e outras. Aperte o obtão Testar para testar sua sequência com o FarmBot. Você também pode editar, copiar e excluir sequências existentes; atribuir cores; e dar nomes personalizados aos seus comandos.`
+  //`Drag and drop commands here to create sequences for watering, planting seeds, measuring soil properties, and more. Press the Test button to immediately try your sequence with LaurBot. You can also edit, copy, and delete existing sequences; assign a color; and give your commands custom names.` : `Arraste e solte comandos aqui para criar sequências de irrigação, plantio de sementes, medição de propriedades do solo e outras. Aperte o obtão Testar para testar sua sequência com o LaurBot. Você também pode editar, copiar e excluir sequências existentes; atribuir cores; e dar nomes personalizados aos seus comandos.`
 
 }
